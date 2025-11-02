@@ -1,16 +1,58 @@
-/* Reset de bază */
-• 	{ margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Segoe UI', sans-serif; color: #ffffff; min-height: 100vh; padding: 30px 20px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; text-align: center; position: relative; z-index: 1; }
-/* Fundal discret cu logo / body::before { content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: url('logo.png') center center/contain no-repeat; opacity: 0.08; / foarte discret */ z-index: -1; }
-/* Navigație */ nav { margin-bottom: 30px; }
-nav ul { list-style: none; display: flex; gap: 15px; padding: 0; flex-wrap: wrap; justify-content: center; }
-nav a { text-decoration: none; color: #ffffff; font-weight: 500; background-color: rgba(0, 0, 0, 0.4); padding: 6px 12px; border-radius: 6px; font-size: 0.95rem; transition: background 0.3s; }
-nav a:hover { background-color: rgba(255, 255, 255, 0.2); }
-/* Antet */ header { background-color: rgba(0, 0, 0, 0.5); padding: 25px; border-radius: 12px; max-width: 600px; margin-bottom: 30px; box-shadow: 0 0 10px rgba(0,0,0,0.3); }
-header h1 { font-size: 1.8rem; margin-bottom: 12px; text-shadow: 1px 1px 3px #000; }
-.slogan { font-size: 1rem; font-style: italic; text-shadow: 1px 1px 2px #000; }
-/* Contact */ .contact { background-color: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 10px; max-width: 400px; box-shadow: 0 0 8px rgba(0,0,0,0.2); }
-.contact h2 { font-size: 1.4rem; margin-bottom: 10px; }
-.contact p { font-size: 0.95rem; margin: 6px 0; }
-.contact a { color: #ffffff; text-decoration: underline; }
-/* Footer */ footer { margin-top: 40px; font-size: 0.8rem; color: #cccccc; }
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADM Engineering</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>ADM Engineering</h1>
+    <p class="slogan">Proiectăm rețele de telecomunicații cu rigoare și claritate.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#acasa">Acasă</a></li>
+      <li><a href="#despre">Despre noi</a></li>
+      <li><a href="#servicii">Servicii</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="acasa">
+    <h2>Bine ai venit</h2>
+    <p>ADM Engineering este o firmă independentă specializată în proiectarea rețelelor de telecomunicații. Combinăm rigoarea tehnică cu o estetică discretă pentru a oferi soluții clare, documentate și durabile.</p>
+  </section>
+
+  <section id="despre">
+    <h2>Despre noi</h2>
+    <p>Ne concentrăm exclusiv pe proiectarea rețelelor de telecomunicații — de la infrastructură pasivă la planuri multiserviciu. Fiecare proiect este tratat cu seriozitate, claritate și respect pentru normele în vigoare.</p>
+    <p>Valorile noastre: precizie, colaborare, simplitate elegantă.</p>
+  </section>
+
+  <section id="servicii">
+    <h2>Servicii</h2>
+    <ul>
+      <li>Proiectare rețele de telecomunicații (interioare și exterioare)</li>
+      <li>Infrastructură tehnică pentru clădiri: canalizații, camere tehnice, trasee</li>
+      <li>Elaborare documentații tehnice: memorii, planuri, devize, scheme</li>
+    </ul>
+    <p>Toate livrabilele sunt clare, coerente și pregătite pentru implementare.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Ai un proiect în lucru sau vrei o opinie tehnică?</p>
+    <p>📧 <a href="mailto:popmirceadan@gmail.com">popmirceadan@gmail.com</a><br />
+       📞 <a href="tel:+40722713133">0722 713 133</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 ADM Engineering · Toate drepturile rezervate
+  </footer>
+
+</body>
+</html>
