@@ -1,58 +1,91 @@
-<!DOCTYPE html>
-<html lang="ro">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ADM Engineering</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+/* Reset și font */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
 
-  <header>
-    <h1>ADM Engineering</h1>
-    <p class="slogan">Proiectăm rețele de telecomunicații cu rigoare și claritate.</p>
-  </header>
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e0e0e0;
+}
 
-  <nav>
-    <ul>
-      <li><a href="#acasa">Acasă</a></li>
-      <li><a href="#despre">Despre noi</a></li>
-      <li><a href="#servicii">Servicii</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+.slogan {
+  font-style: italic;
+  margin-top: 10px;
+}
 
-  <section id="acasa">
-    <h2>Bine ai venit</h2>
-    <p>ADM Engineering este o firmă independentă specializată în proiectarea rețelelor de telecomunicații. Combinăm rigoarea tehnică cu o estetică discretă pentru a oferi soluții clare, documentate și durabile.</p>
-  </section>
+/* Navigație */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  background-color: #005f99;
+}
 
-  <section id="despre">
-    <h2>Despre noi</h2>
-    <p>Ne concentrăm exclusiv pe proiectarea rețelelor de telecomunicații — de la infrastructură pasivă la planuri multiserviciu. Fiecare proiect este tratat cu seriozitate, claritate și respect pentru normele în vigoare.</p>
-    <p>Valorile noastre: precizie, colaborare, simplitate elegantă.</p>
-  </section>
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
-  <section id="servicii">
-    <h2>Servicii</h2>
-    <ul>
-      <li>Proiectare rețele de telecomunicații (interioare și exterioare)</li>
-      <li>Infrastructură tehnică pentru clădiri: canalizații, camere tehnice, trasee</li>
-      <li>Elaborare documentații tehnice: memorii, planuri, devize, scheme</li>
-    </ul>
-    <p>Toate livrabilele sunt clare, coerente și pregătite pentru implementare.</p>
-  </section>
+nav ul li a:hover {
+  background-color: #004877;
+}
 
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Ai un proiect în lucru sau vrei o opinie tehnică?</p>
-    <p>📧 <a href="mailto:popmirceadan@gmail.com">popmirceadan@gmail.com</a><br />
-       📞 <a href="tel:+40722713133">0722 713 133</a></p>
-  </section>
+/* Secțiuni generale */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  <footer>
-    &copy; 2025 ADM Engineering · Toate drepturile rezervate
-  </footer>
+/* Banda magenta pentru #despre */
+.magenta-band {
+  background-color: #c2185b;
+  color: white;
+  padding: 60px 20px;
+}
 
-</body>
-</html>
+.content-box {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.magenta-band h2,
+.magenta-band h3 {
+  margin-bottom: 20px;
+}
+
+.magenta-band ul {
+  list-style: none;
+  padding: 0;
+}
+
+.magenta-band ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+/* Contact */
+.contact {
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+  font-size: 0.9em;
