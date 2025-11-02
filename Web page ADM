@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADM Engineering</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f2a2e;
+      background-image: url('background-circuit.png'); /* înlocuiește cu imaginea ta */
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 20px;
+    }
+
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      margin-top: 30px;
+    }
+
+    nav a {
+      color: #00c2c2;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .contact-button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 24px;
+      background-color: #00c2c2;
+      color: #0f2a2e;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.8em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="adm-logo.png" alt="ADM Engineering Logo" class="logo">
+    <h1>O echipă. Un proiect. Un succes împreună.</h1>
+    <nav>
+      <a href="#">Acasă</a>
+      <a href="#">Servicii</a>
+      <a href="mailto:popmirceadan@gmail.com">Contact</a>
+    </nav>
+    <a href="mailto:popmirceadan@gmail.com" class="contact-button">Trimite un mesaj</a>
+  </header>
+
+  <footer>
+    &copy; 2025 ADM Engineering. Toate drepturile rezervate.
+  </footer>
+</body>
+</html>
+
