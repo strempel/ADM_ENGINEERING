@@ -41,6 +41,31 @@
       font-weight: bold;
     }
 
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #00c2c2;
+    }
+
     .contact-button {
       display: inline-block;
       margin-top: 40px;
@@ -61,15 +86,34 @@
 </head>
 <body>
   <header>
-    <img src="adm-logo.png" alt="ADM Engineering Logo" class="logo">
+    <img src="logo.png" alt="ADM Engineering Logo" class="logo">
     <h1>O echipă. Un proiect. Un succes împreună.</h1>
     <nav>
-      <a href="#">Acasă</a>
-      <a href="#">Servicii</a>
-      <a href="mailto:popmirceadan@gmail.com">Contact</a>
+      <a href="#acasa">Acasă</a>
+      <a href="#servicii">Servicii</a>
+      <a href="#contact">Contact</a>
     </nav>
     <a href="mailto:popmirceadan@gmail.com" class="contact-button">Trimite un mesaj</a>
   </header>
+
+  <section id="acasa">
+    <h2>ADM Engineering</h2>
+    <p>Suntem o firmă de inginerie specializată în proiectare pentru telecomunicații, managementul proiectelor și consultanță în telecomunicații.</p>
+  </section>
+
+  <section id="servicii">
+    <h2>Servicii</h2>
+    <ul>
+      <li>Proiectare în telecomunicații</li>
+      <li>Consultanță în telecomunicații</li>
+      <li>Managementul proiectelor de telecomunicații</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:popmirceadan@gmail.com">popmirceadan@gmail.com</a></p>
+  </section>
 
   <footer>
     &copy; 2025 ADM Engineering. Toate drepturile rezervate.
