@@ -4,55 +4,118 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ADM Engineering</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      scroll-behavior: smooth;
+      background-image: url('logo.svg'); /* înlocuiește cu numele real al fișierului */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 600px;
+      opacity: 1;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('logo.svg'); /* înlocuiește cu numele real */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 600px;
+      opacity: 0.05;
+      z-index: -1;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #ecf0f1;
+      padding: 0.8rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 600;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(255,255,255,0.85);
+      border-radius: 8px;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>ADM Engineering</h1>
-    <p class="slogan">Proiectăm rețele de telecomunicații cu rigoare și claritate.</p>
-    <nav>
-      <ul>
-        <li><a href="#acasa">Acasă</a></li>
-        <li><a href="#despre">Despre noi</a></li>
-        <li><a href="#servicii">Servicii</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <p>Proiectăm rețele de telecomunicații cu rigoare și claritate.</p>
   </header>
 
-  <main>
-    <section id="acasa">
-      <h2>Bine ai venit</h2>
-      <p>
-        ADM Engineering este o firmă independentă specializată în proiectarea rețelelor de telecomunicații.
-        Combinăm rigoarea tehnică cu o estetică discretă pentru o claritate superioară în desene, documentație și durabilitate.
-      </p>
-    </section>
+  <nav>
+    <a href="#acasa">Acasă</a>
+    <a href="#despre">Despre noi</a>
+    <a href="#servicii">Servicii</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section id="despre">
-      <h2>Despre noi</h2>
-      <p>
-        Ne concentrăm exclusiv pe proiectarea rețelelor de telecomunicații — de la infrastructuri pasive la planuri multiservice.
-        Fiecare proiect este abordat cu rigoare, claritate și o estetică discretă pentru un mediu în vigoare.
-      </p>
-    </section>
+  <section id="acasa">
+    <h2>Bine ai venit</h2>
+    <p>ADM Engineering este o firmă independentă specializată în proiectarea rețelelor de telecomunicații. Combinăm rigoarea tehnică cu o estetică discretă pentru a oferi soluții clare, documentate și durabile.</p>
+  </section>
 
-    <section id="servicii">
-      <h2>Servicii</h2>
-      <p>
-        Oferim proiectare pentru infrastructuri pasive, rețele multiservice, documentație tehnică și suport pentru avize.
-        Fiecare serviciu este adaptat cerințelor reale, cu accent pe claritate și durabilitate.
-      </p>
-    </section>
+  <section id="despre">
+    <h2>Despre noi</h2>
+    <p>Ne concentrăm exclusiv pe proiectarea rețelelor de telecomunicații — de la infrastructură pasivă la planuri multiserviciu. Fiecare proiect este tratat cu seriozitate, claritate și respect pentru normele în vigoare.</p>
+    <p>Valorile noastre: precizie, colaborare, simplitate elegantă.</p>
+  </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        Ne poți contacta la <a href="mailto:contact@admengineering.ro">contact@admengineering.ro</a>
-        sau prin formularul de mai jos.
-      </p>
-      <!-- Formularul poate fi adăugat ulterior -->
-    </section>
-  </main>
+  <section id="servicii">
+    <h2>Servicii</h2>
+    <ul>
+      <li>Proiectare rețele de telecomunicații (interioare și exterioare)</li>
+      <li>Infrastructură tehnică pentru clădiri: canalizații, camere tehnice, trasee</li>
+      <li>Elaborare documentații tehnice: memorii, planuri, devize, scheme</li>
+    </ul>
+    <p>Toate livrabilele sunt clare, coerente și pregătite pentru implementare.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Ai un proiect în lucru sau vrei o opinie tehnică?</p>
+    <p>📧 <a href="mailto:popmirceadan@gmail.com">popmirceadan@gmail.com</a><br />
+       📞 <a href="tel:+40722713133">0722 713 133</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 ADM Engineering · Toate drepturile rezervate
+  </footer>
+
 </body>
 </html>
