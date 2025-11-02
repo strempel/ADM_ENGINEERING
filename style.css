@@ -18,14 +18,14 @@ body {
 header {
   text-align: center;
   padding: 60px 20px 40px;
-  background-color: #e9ecef;
+  background-color: #dbe9f4; /* Albastru discret */
   border-bottom: 1px solid #ccc;
+  color: #003366; /* Font albastru închis */
 }
 
 .slogan {
   font-style: italic;
   margin-top: 10px;
-  color: #555;
 }
 
 /* Navigație */
@@ -41,7 +41,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 15px 20px;
+  padding: 15px 22px 15px 24px; /* Spațiere ajustată pentru mobil */
   text-decoration: none;
   color: white;
   font-weight: 600;
