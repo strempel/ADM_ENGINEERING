@@ -9,7 +9,7 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa; /* Fundal gri discret */
+  background-color: #f8f9fa;
   color: #2c2c2c;
   line-height: 1.6;
 }
@@ -18,9 +18,9 @@ body {
 header {
   text-align: center;
   padding: 60px 20px 40px;
-  background-color: #dbe9f4; /* Albastru discret */
+  background-color: #dbe9f4;
   border-bottom: 1px solid #ccc;
-  color: #003366; /* Font albastru închis */
+  color: #003366;
 }
 
 .slogan {
@@ -36,12 +36,12 @@ nav ul {
   gap: 30px;
   padding: 0;
   margin: 0;
-  background-color: #d3d3d3; /* Gri discret ușor închis */
+  background-color: #2f2f2f;
 }
 
 nav ul li a {
   display: block;
-  padding: 15px 22px 15px 24px; /* Spațiere ajustată pentru mobil */
+  padding: 15px 22px 15px 24px;
   text-decoration: none;
   color: white;
   font-weight: 600;
@@ -49,7 +49,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #bcbcbc; /* Gri mai închis la hover */
+  background-color: #444;
 }
 
 /* Secțiuni generale */
@@ -62,13 +62,7 @@ section {
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
   margin-bottom: 40px;
   text-align: center;
-  color: #000000; /* Font negru complet pentru secțiuni */
-}
-
-/* Secțiunea Servicii cu fundal gri închis și text alb */
-section.servicii {
-  background-color: #2a2a2a; /* Gri mult mai închis pentru contrast */
-  color: white;
+  color: #000000;
 }
 
 /* Footer */
@@ -84,12 +78,19 @@ footer {
 /* Versiune mobilă */
 @media (max-width: 480px) {
   nav ul {
-    gap: 20px;
+    gap: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   nav ul li a {
     font-size: 0.9em;
-    padding-left: 26px;
+    padding-left: 20px;
     padding-right: 20px;
+  }
+
+  section {
+    padding: 40px 15px;
+    font-size: 0.95em;
   }
 }
