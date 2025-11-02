@@ -19,24 +19,14 @@ body {
   z-index: 1;
 }
 
-/* Fundaluri discrete */
-body.pagina-initiala::before {
+/* Fundal discret cu logo */
+body::before {
   content: "";
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: url('logo.png') center center/cover no-repeat;
-  opacity: 0.3;
-  z-index: -1;
-}
-
-body.pagina-acasa::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: url('acasa.png') center center/cover no-repeat;
-  opacity: 0.3;
+  background: url('logo.png') center center/contain no-repeat;
+  opacity: 0.08; /* foarte discret */
   z-index: -1;
 }
 
@@ -50,6 +40,8 @@ nav ul {
   display: flex;
   gap: 15px;
   padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav a {
@@ -111,5 +103,12 @@ header h1 {
 .contact a {
   color: #ffffff;
   text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: #cccccc;
 }
 
