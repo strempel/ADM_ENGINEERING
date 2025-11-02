@@ -65,6 +65,12 @@ section {
   color: #000000; /* Font negru complet pentru secțiuni */
 }
 
+/* Secțiunea Servicii cu fundal gri închis și text alb */
+section.servicii {
+  background-color: #4a4a4a; /* Gri închis */
+  color: white;
+}
+
 /* Footer */
 footer {
   text-align: center;
