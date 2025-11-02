@@ -36,7 +36,7 @@ nav ul {
   gap: 30px;
   padding: 0;
   margin: 0;
-  background-color: #e20074; /* Magenta Telekom */
+  background-color: #d3d3d3; /* Gri discret ușor închis */
 }
 
 nav ul li a {
@@ -49,7 +49,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #c0005f;
+  background-color: #bcbcbc; /* Gri mai închis la hover */
 }
 
 /* Secțiuni generale */
@@ -62,31 +62,6 @@ section {
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
   margin-bottom: 40px;
   text-align: center;
-}
-
-/* Banda magenta pentru secțiuni evidențiate */
-#servicii {
-  background-color: #e20074;
-  color: white;
-  padding: 80px 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  text-align: center;
-}
-
-#servicii h2 {
-  margin-bottom: 20px;
-  font-weight: 600;
-}
-
-#servicii ul {
-  list-style: none;
-  padding: 0;
-}
-
-#servicii ul li {
-  margin: 12px 0;
-  font-size: 1.1em;
 }
 
 /* Footer */
