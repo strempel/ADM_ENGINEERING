@@ -118,3 +118,32 @@ footer {
 .pastel-box.bg3 { background-color: #a3c9f9; } /* Viziunea noastră */
 .pastel-box.bg4 { background-color: #b3d4fc; } /* Fondatorul */
 .pastel-box.bg5 { background-color: #99c2f2; } /* Valorile noastre */
+
+/* Fundal discret pentru pagina Servicii */
+.servicii-page {
+  position: relative;
+  background-color: #1a2b3c; /* pastel-albastru închis */
+  color: white;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* Overlay cu imaginea FIBER.JPG */
+.background-overlay {
+  background-image: url('FIBER.JPG'); /* imaginea urbană */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.08;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Stratificare corectă a conținutului */
+.servicii-page > * {
+  position: relative;
+  z-index: 1;
