@@ -18,9 +18,9 @@ body {
 header {
   text-align: center;
   padding: 60px 20px 40px;
-  background-color: #dbe9f4; /* Albastru discret */
+  background-color: #dbe9f4;
   border-bottom: 1px solid #ccc;
-  color: #003366; /* Font albastru închis */
+  color: #003366;
 }
 
 .slogan {
@@ -36,7 +36,7 @@ nav ul {
   gap: 30px;
   padding: 0;
   margin: 0;
-  background-color: #3a5f7d; /* Albastru discret */
+  background-color: #3a5f7d;
 }
 
 nav ul li a {
@@ -49,7 +49,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #2f4f6b; /* Albastru mai închis la hover */
+  background-color: #2f4f6b;
 }
 
 /* Secțiuni generale */
@@ -57,7 +57,7 @@ section {
   padding: 60px 20px;
   max-width: 800px;
   margin: 0 auto;
-  background-color: white; /* Fundal alb/gri deschis */
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
   margin-bottom: 40px;
@@ -65,7 +65,7 @@ section {
   color: #000000;
 }
 
-/* Secțiunea Servicii — revenire la stil general */
+/* Secțiunea Servicii */
 section.servicii {
   background-color: white;
   color: #000000;
@@ -113,24 +113,23 @@ footer {
 }
 
 /* Variante de fundal pastel */
-.pastel-box.bg1 { background-color: #7aaae6; } /* Cine suntem */
-.pastel-box.bg2 { background-color: #8bb8f9; } /* Ce ne inspiră */
-.pastel-box.bg3 { background-color: #a3c9f9; } /* Viziunea noastră */
-.pastel-box.bg4 { background-color: #b3d4fc; } /* Fondatorul */
-.pastel-box.bg5 { background-color: #99c2f2; } /* Valorile noastre */
+.pastel-box.bg1 { background-color: #7aaae6; }
+.pastel-box.bg2 { background-color: #8bb8f9; }
+.pastel-box.bg3 { background-color: #a3c9f9; }
+.pastel-box.bg4 { background-color: #b3d4fc; }
+.pastel-box.bg5 { background-color: #99c2f2; }
 
 /* Fundal discret pentru pagina Servicii */
 .servicii-page {
   position: relative;
-  background-color: #1a2b3c; /* pastel-albastru închis */
+  background-color: #1a2b3c;
   color: white;
   overflow: hidden;
   min-height: 100vh;
 }
 
-/* Overlay cu imaginea FIBER.JPG */
 .background-overlay {
-  background-image: url('FIBER.JPG'); /* imaginea urbană */
+  background-image: url('FIBER.JPG');
   background-size: cover;
   background-position: center;
   opacity: 0.08;
@@ -143,7 +142,7 @@ footer {
   pointer-events: none;
 }
 
-/* Stratificare corectă a conținutului */
 .servicii-page > * {
   position: relative;
   z-index: 1;
+}
