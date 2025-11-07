@@ -76,8 +76,7 @@ section.servicii {
   z-index: 1;
 }
 
-/* Footer */
-footer {
+/* Footer */ooter {
   text-align: center;
   padding: 20px;
   background-color: #dee2e6;
@@ -134,7 +133,7 @@ footer {
 }
 
 .background-overlay {
-  background-image: url('https://raw.githubusercontent.com/strempel/ADM_ENGINEERING/main/FIBER.JPG');
+  background-image: url('/ADM_ENGINEERING/FIBER.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.15;
