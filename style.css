@@ -67,8 +67,13 @@ section {
 
 /* Secțiunea Servicii */
 section.servicii {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.85); /* alb semi-transparent */
   color: #000000;
+  border-radius: 8px;
+  padding: 60px 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  position: relative;
+  z-index: 1;
 }
 
 /* Footer */
@@ -122,7 +127,7 @@ footer {
 /* Fundal discret pentru pagina Servicii */
 .servicii-page {
   position: relative;
-  background-color: #1a2b3c;
+  background-color: #1a2b3c; /* fundal albastru închis */
   color: white;
   overflow: hidden;
   min-height: 100vh;
@@ -132,7 +137,7 @@ footer {
   background-image: url('FIBER.JPG');
   background-size: cover;
   background-position: center;
-  opacity: 0.08;
+  opacity: 0.15;
   position: absolute;
   top: 0;
   left: 0;
@@ -145,4 +150,3 @@ footer {
 .servicii-page > * {
   position: relative;
   z-index: 1;
-}
