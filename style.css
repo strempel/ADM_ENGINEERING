@@ -134,7 +134,7 @@ footer {
 }
 
 .background-overlay {
-  background-image: url('FIBER.JPG');
+  background-image: url('https://raw.githubusercontent.com/strempel/ADM_ENGINEERING/main/FIBER.JPG');
   background-size: cover;
   background-position: center;
   opacity: 0.15;
@@ -150,3 +150,4 @@ footer {
 .servicii-page > * {
   position: relative;
   z-index: 1;
+}
